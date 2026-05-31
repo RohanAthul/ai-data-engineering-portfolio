@@ -21,11 +21,11 @@ The workspace is organized into logical domains to separate core application arc
 | Application Directory | Domain | Primary Tech Stack | Status |
 | :--- | :--- | :--- | :--- |
 | [**`core-apps/localcloud-llm`**](./core-apps/localcloud-llm) | Artificial Intelligence | Streamlit, Ollama, Google Gemini API, Python | 🌟 Active |
-| [`data-engineering/advanced-database-architecture`](./data-engineering/advanced-database-architecture) | Data Engineering | PySpark, MySQL, MongoDB, Parquet | Completed |
+| [`data-engineering/advanced-database-architecture`](./data-engineering/advanced-database-architecture) | Data Engineering | ETL, MySQL, MongoDB, Parquet | Completed |
 | [`tools-and-utilities/deutsch-vocabulary-assistant`](./tools-and-utilities/deutsch-vocabulary-assistant) | EdTech / Language | Streamlit, MongoDB, Python | Stable |
-| [`tools-and-utilities/pdf-rag-bot`](./tools-and-utilities/pdf-rag-bot) | AI / Knowledge Base | Gemini API, FAISS/Chroma, LangChain | Stable |
+| [`tools-and-utilities/pdf-rag-bot`](./tools-and-utilities/pdf-rag-bot) | AI / Knowledge Base | Gemini API | Stable |
 | [`tools-and-utilities/ollama-offline-chatbot`](./tools-and-utilities/ollama-offline-chatbot) | AI / Privacy | Streamlit, Local Ollama (Gemma/Llama) | Stable |
-| [`tools-and-utilities/streamlit-time-tracker`](./tools-and-utilities/streamlit-time-tracker) | Productivity | Streamlit, SQLite | Lightweight |
+| [`tools-and-utilities/streamlit-time-tracker`](./tools-and-utilities/streamlit-time-tracker) | Productivity | Streamlit, Python | Lightweight |
 
 ---
 
@@ -48,13 +48,13 @@ Since this is a monorepo, it is highly recommended to manage individual virtual 
    cd tools-and-utilities/deutsch-vocabulary-assistant
 
 2. Initialize and activate an isolated environment (e.g., using venv or conda):
-  ```
-  python3 -m venv .venv
-  source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-  ```
+     ```
+     python3 -m venv .venv
+     source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+     ```
 
 3. Install the specialized requirements:
-  ```
-  pip install -r requirements.txt
-  ```
+     ```
+     pip install -r requirements.txt
+     ```
 
