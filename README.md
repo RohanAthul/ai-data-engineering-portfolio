@@ -1,6 +1,6 @@
-# Personal Productivity Suite 🚀
+# AI - Data Engineering - Portfolio 🚀
 
-Welcome to my central workspace. This repository serves as a unified monorepo housing a diverse collection of data engineering architectures, AI-powered applications, and local productivity utilities. 
+Welcome to my central workspace. This repository serves as a unified monorepo housing a diverse collection of data engineering architectures, AI-powered applications, and local productivity utilities.
 
 Each application is self-contained with its own dependency environments and individual documentation.
 
